@@ -1,1 +1,0 @@
-project_id = "de-zoomcamp-2026-01"

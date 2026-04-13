@@ -1,0 +1,6 @@
+.env
+*.json
+.terraform/
+*.tfstate*
+__pycache__/
+.bruin.yml

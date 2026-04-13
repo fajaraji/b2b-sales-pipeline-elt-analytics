@@ -1,7 +1,0 @@
-# Example Bruin configuration
-# Copy this file to .bruin.yml and update the values for your environment.
-
-# pipeline:
-#   name: b2b-sales-pipeline
-#   schedule: '@daily'
-#   project: analytics
