@@ -1,0 +1,4 @@
+# Python dependencies for the B2B sales pipeline analytics project
+# Add packages here, for example:
+# pandas
+# google-cloud-bigquery
