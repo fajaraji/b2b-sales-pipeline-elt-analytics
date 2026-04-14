@@ -1,0 +1,11 @@
+name: b2b-crm-pipeline
+schedule: "0 0 * * *"
+start_date: "2026-04-14"
+
+variables:
+  project_id:
+    type: string
+    default: "de-zoomcamp-2026-01"
+
+default_connections:
+  google_cloud_platform: "default"

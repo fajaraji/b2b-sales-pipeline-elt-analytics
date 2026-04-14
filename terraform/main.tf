@@ -14,14 +14,20 @@ resource "google_storage_bucket" "data_lake" {
 resource "google_bigquery_dataset" "raw" {
   dataset_id = "raw"
   location   = var.region
+  default_table_expiration_ms = 3600000000
+  delete_contents_on_destroy  = true
 }
 
 resource "google_bigquery_dataset" "staging" {
   dataset_id = "staging"
   location   = var.region
+  default_table_expiration_ms = 3600000000
+  delete_contents_on_destroy  = true
 }
 
 resource "google_bigquery_dataset" "marts" {
   dataset_id = "marts"
   location   = var.region
+  default_table_expiration_ms = 3600000000
+  delete_contents_on_destroy  = true
 }
