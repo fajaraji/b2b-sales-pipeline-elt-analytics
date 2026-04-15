@@ -1,6 +1,7 @@
 """@bruin
-name: stg_accounts
+name: staging.stg_accounts
 type: bq.sql
+connection: default
 materialization:
   type: table
   dataset: staging
@@ -27,4 +28,4 @@ SELECT
 
     CURRENT_TIMESTAMP() AS processed_at
 
-FROM `{{project_id}}.raw.raw_accounts`
+FROM `raw.raw_accounts`

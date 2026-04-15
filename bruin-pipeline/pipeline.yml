@@ -8,4 +8,4 @@ variables:
     default: "de-zoomcamp-2026-01"
 
 default_connections:
-  google_cloud_platform: "default"
+  google-cloud-platform: "default"
