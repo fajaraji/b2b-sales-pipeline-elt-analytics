@@ -43,6 +43,14 @@ graph TD;
 
 ---
 
+## Dataset Overview
+
+The project uses the CRM Sales Opportunities dataset, which provides a realistic look into B2B sales cycles. 
+- **Timeframe:** The analysis focus on the period from **March 2017 to December 2017**, specifically for "Revenue Won" metrics.
+- **Context:** This specific window allows for a deep dive into sales agent performance and quarterly revenue forecasting within that fiscal year.
+
+---
+
 ## Data Warehouse Optimization
 
 The `fct_sales_performance` table in the marts layer is optimized for analytical queries using:
