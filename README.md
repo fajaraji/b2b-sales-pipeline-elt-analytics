@@ -34,11 +34,11 @@ This project follows the **Medallion Architecture**, which organizes data into t
 ### Data Flow Diagram
 
 ```mermaid
-graph TD
-    A[Kaggle Dataset] -->|Python Script| B[Raw Layer (GCS)]
-    B -->|SQL Models| C[Staging Layer (BigQuery)]
-    C -->|SQL Models| D[Marts Layer (BigQuery)]
-    D -->|Analytics| E[BI Tools]
+graph TD;
+    A["Kaggle Dataset"] -->|Python Script| B["Raw Layer (GCS)"];
+    B -->|SQL Models| C["Staging Layer (BigQuery)"];
+    C -->|SQL Models| D["Marts Layer (BigQuery)"];
+    D -->|Analytics| E["BI Tools"];
 ```
 
 ---
